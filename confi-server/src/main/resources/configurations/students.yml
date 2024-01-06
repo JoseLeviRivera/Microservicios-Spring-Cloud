@@ -5,7 +5,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 
-
 server:
   port: 8090
 spring:
@@ -26,3 +25,9 @@ management:
   tracing:
     sampling:
       probability: 1.0
+app:
+  title: Students-Service
+  version: 1.0.0
+  description: This service are running Students-service
+spring-boot:
+  version: (v3.2.1)

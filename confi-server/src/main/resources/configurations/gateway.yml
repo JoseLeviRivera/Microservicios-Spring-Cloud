@@ -25,3 +25,10 @@ management:
   tracing:
     sampling:
       probability: 1.0
+
+app:
+  title: Gateway
+  version: 1.0.0
+  description: Gateway is a Service that contains access point router
+spring-boot:
+  version: (v3.2.1)

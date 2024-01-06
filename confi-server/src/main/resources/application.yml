@@ -11,3 +11,10 @@ spring:
       server:
         native:
           search-locations: classpath:/configurations
+
+app:
+  title: Config-Server
+  version: 1.0.0
+  description: This service contains all register configuration with Eureka Server
+spring-boot:
+  version: (v3.2.1)

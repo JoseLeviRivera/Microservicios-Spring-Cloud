@@ -27,3 +27,8 @@ management:
   tracing:
     sampling:
       probability: 1.0
+app:
+  title: Schools-Service
+  version: 1.0.0
+spring-boot:
+  version: (v3.2.1)

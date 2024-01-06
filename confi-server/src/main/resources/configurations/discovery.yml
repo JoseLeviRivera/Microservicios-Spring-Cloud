@@ -8,3 +8,9 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 server:
   port: 8761
+app:
+  title: Discovery-Service
+  version: 1.0.0
+  description: This service are running Eureka Server and contains register all services
+spring-boot:
+  version: (v3.2.1)
